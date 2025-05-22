@@ -12,5 +12,7 @@ namespace Product.Infrastructure.Persistence
         {
             base.OnModelCreating(builder);
         }
+        public DbSet<ProductData> Products { get; set; }
+
     }
 }
